@@ -1,9 +1,9 @@
 import streamlit as st
 
 camera = st.session_state.selected_camera
-CAMERA_1_FEED = 'images/sample_cows.jpg'
-CAMERA_2_FEED = 'images/sample_empty.jpg'
-CAMERA_1_DETECTION = 'images/sample_cows_detection.png'
+CAMERA_1_FEED = 'code/images/sample_cows.jpg'
+CAMERA_2_FEED = 'code/images/sample_empty.jpg'
+CAMERA_1_DETECTION = 'code/images/sample_cows_detection.png'
 
 
 st.title(f'Displaying the latest feed from {camera}')
